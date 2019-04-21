@@ -7,6 +7,6 @@ A repo to record my GKS journey. Update every round.
 | --- | --- |--- | --- | --- | --- |
 | 2019 | Apr 21th | B | 5/100 | [here](/2019/roundB/result.md) | wake up earlier please |
 
-Here are my other repos for algo practice:
+#### My other related repos
 - [AlgoDaily](https://github.com/calvinchankf/AlgoDaily)
 - [GoogleCodeJam](https://github.com/calvinchankf/GoogleCodeJam)
