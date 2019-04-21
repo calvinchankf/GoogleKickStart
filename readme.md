@@ -9,4 +9,4 @@ A repo to record my GKS journey. Update every round.
 
 Here are my other repos for algo practice:
 - [AlgoDaily](https://github.com/calvinchankf/AlgoDaily)
-- [googlecodejam](https://github.com/calvinchankf/googlecodejam)
+- [GoogleCodeJam](https://github.com/calvinchankf/GoogleCodeJam)
