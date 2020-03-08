@@ -8,7 +8,7 @@
 | B   | Mural           | ✅                 | ✅                 |
 | C   | Kickstart Alarm | ❌                 | ❌                 |
 
-score: 5/100
+score: 56/100
 
 ---
 
@@ -18,4 +18,4 @@ A: binary search
 
 B: sliding window
 
-C: i hate math
+C: skipped, i hate math
