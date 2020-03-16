@@ -5,10 +5,8 @@
 |     | Question      | small dataset test | large dataset test |
 | --- | ------------- | ------------------ | ------------------ |
 | A   | Wiggle Walk   | ✅                 | ❌                 |
-| B   | Circuit Board | ❌                 | ❌                 |
+| B   | Circuit Board | ✅                 | ❌                 |
 | C   | Catch Some    | ❌                 | ❌                 |
-
-score: 5/100 (19/100)
 
 ---
 
@@ -16,6 +14,6 @@ score: 5/100 (19/100)
 
 A: hashtable
 
-B:
+B: prefix sum + largest rectangle in a histogram
 
 C:

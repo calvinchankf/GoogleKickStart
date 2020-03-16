@@ -5,7 +5,7 @@
 |     | Question   | small dataset test | large dataset test |
 | --- | ---------- | ------------------ | ------------------ |
 | A   | Training   | ✅                 | ✅                 |
-| B   | Pracels    | ?                  | ?                  |
+| B   | Parcels    | ?                  | ?                  |
 | C   | contention | ❌                 | ❌                 |
 
 score: 20/100
