@@ -4,7 +4,7 @@ import heapq
     1st: heap
 
     11pts   Pass
-    18psts  Fail...wtf
+    18psts  Fail...WTF
 """
 def f(arr, k):
     pq = []
@@ -22,7 +22,7 @@ def f(arr, k):
         mid = left + diff
 
         # consider: left = 10, right = 13
-        # we want to split it into: 10 -> 11, 11 -> 13
+        # we want to split it into: (1, 10, 11), (2, 11, 13)
         higherDiff = right - mid
         
         heapq.heappush(pq, (-diff, left, mid))
