@@ -1,5 +1,5 @@
 """
-    lc394 but both recursion and stack based solution fail with MLE
+    1st: lc394 but both recursion and stack based solution fail with MLE
 
     Small   Pass
     Big     MLE
@@ -86,7 +86,9 @@ print(f('2(3(NW)2(W2(EE)W))'))
 print("-----")
 
 """
-    lc394 but both recursion and stack based solution fail with MLE
+    2nd:
+    - stack only
+    - dont unfold the characters
 
     Small   Pass
     Big     Pass
