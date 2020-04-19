@@ -6,7 +6,7 @@ A repo to record my GKS journey. Update every round.
 
 | Year | Round    | remarks                            |
 | ---- | -------- | ---------------------------------- |
-| 2020 | B        | [review](/2020/A/review.md)        |
+| 2020 | B        | [review](/2020/B/review.md)        |
 | 2020 | A        | [review](/2020/A/review.md)        |
 | 2019 | C        | [review](/2019/roundC/review.md)   |
 | 2019 | B        | [review](/2019/roundB/review.md)   |
