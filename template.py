@@ -16,3 +16,6 @@ for i in range(1, t + 1):
     res = f(arr, k)
 
     print("Case #{}: {}".format(i, res))
+    # Or
+    print(f"Case #{i}: {res}")
+    
