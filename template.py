@@ -1,5 +1,5 @@
 """
-    1st approach: hashtable
+    1st approach:
 
     Time    
     Space   
