@@ -2,12 +2,12 @@
 
 ### Round C
 
-|     | Question       | small dataset test | large dataset test | remark    |
-| --- | -------------- | ------------------ | ------------------ | --------- |
-| A   | Countdown      | ✅                 | ✅                 | array     |
-| B   | Stable Wall    |                    |                    |           |
-| C   | Perfect Square | ✅                 | should be ✅       | hashtable |
-| D   | Candies        |                    |                    |           |
+|     | Question       | small dataset test | large dataset test | remark               |
+| --- | -------------- | ------------------ | ------------------ | -------------------- |
+| A   | Countdown      | ✅                 | ✅                 | array                |
+| B   | Stable Wall    | ✅                 | ✅                 | topological ordering |
+| C   | Perfect Square | ✅                 | should be ✅       | hashtable            |
+| D   | Candies        |                    |                    |                      |
 
 ---
 
