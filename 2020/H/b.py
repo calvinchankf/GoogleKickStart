@@ -34,32 +34,32 @@ class Solution(object):
     def countBoringNumbers(self, L, R):
         self.res = 0
         for i in range(1, 10, 2):
-            self.dfs(L, R, str(i), 1)
+            self.dfs(L, R, i, 1)
         return self.res
 
     def dfs(self, L, R, cur, idx):
-        if L <= int(cur) <= R:
+        if L <= cur <= R:
             # print('dfs', cur)
             self.res += 1
-        if int(cur) > R:
+        if cur > R:
             return
         if (idx + 1) % 2 == 1:
-            self.dfs(L, R, cur + '1', idx + 1)
-            self.dfs(L, R, cur + '3', idx + 1)
-            self.dfs(L, R, cur + '5', idx + 1)
-            self.dfs(L, R, cur + '7', idx + 1)
-            self.dfs(L, R, cur + '9', idx + 1)
+            self.dfs(L, R, cur * 10 + 1, idx + 1)
+            self.dfs(L, R, cur * 10 + 3, idx + 1)
+            self.dfs(L, R, cur * 10 + 5, idx + 1)
+            self.dfs(L, R, cur * 10 + 7, idx + 1)
+            self.dfs(L, R, cur * 10 + 9, idx + 1)
         else:
-            self.dfs(L, R, cur + '0', idx + 1)
-            self.dfs(L, R, cur + '2', idx + 1)
-            self.dfs(L, R, cur + '4', idx + 1)
-            self.dfs(L, R, cur + '6', idx + 1)
-            self.dfs(L, R, cur + '8', idx + 1)
+            self.dfs(L, R, cur * 10 + 0, idx + 1)
+            self.dfs(L, R, cur * 10 + 2, idx + 1)
+            self.dfs(L, R, cur * 10 + 4, idx + 1)
+            self.dfs(L, R, cur * 10 + 6, idx + 1)
+            self.dfs(L, R, cur * 10 + 8, idx + 1)
 
 print(Solution().countBoringNumbers(5, 15))
 print(Solution().countBoringNumbers(120, 125))
 print(Solution().countBoringNumbers(779, 783))
-print(Solution().countBoringNumbers(99, 100000000))
+print(Solution().countBoringNumbers(99, 10000000000))
 
 
 # # input() reads a string with a line of input, stripping the ' ' (newline) at the end.
