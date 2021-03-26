@@ -59,7 +59,7 @@ class Solution(object):
 print(Solution().countBoringNumbers(5, 15))
 print(Solution().countBoringNumbers(120, 125))
 print(Solution().countBoringNumbers(779, 783))
-print(Solution().countBoringNumbers(99, 1000000000))
+print(Solution().countBoringNumbers(99, 100000000))
 
 
 # # input() reads a string with a line of input, stripping the ' ' (newline) at the end.
