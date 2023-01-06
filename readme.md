@@ -6,6 +6,7 @@ A repo to record my GKS journey. Update every round.
 
 | Year | Round    | remarks                            |
 | ---- | -------- | ---------------------------------- |
+| 2021 | A        | [review](/2021/A/review.md)        |
 | 2020 | H        | [review](/2020/H/review.md)        |
 | 2020 | G        | [review](/2020/G/review.md)        |
 | 2020 | F        | [review](/2020/F/review.md)        |
@@ -20,5 +21,5 @@ A repo to record my GKS journey. Update every round.
 
 #### My other related repos
 
--   [AlgoDaily](https://github.com/calvinchankf/AlgoDaily)
--   [GoogleCodeJam](https://github.com/calvinchankf/GoogleCodeJam)
+- [AlgoDaily](https://github.com/calvinchankf/AlgoDaily)
+- [GoogleCodeJam](https://github.com/calvinchankf/GoogleCodeJam)
